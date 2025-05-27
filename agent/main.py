@@ -33,7 +33,8 @@ if __name__ == "__main__":
     # Inclusive review test
     sample_doc = "Whitelist these IPs and make sure no junior breaks the config."
     print("📝 Inclusive Review Output:\n")
-    print(inclusive_review(sample_doc))
-    
+    print(inclusive_review(sample_doc).content)
+
     print("\n🚀 Onboarding Guide Output:\n")
-    print(onboarding_guide("Frontend Developer", "Junior", "React, Next.js, GitHub"))
+    print(onboarding_guide("Frontend Developer", "Junior", "React, Next.js, GitHub").content)
+
