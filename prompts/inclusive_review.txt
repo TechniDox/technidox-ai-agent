@@ -1,0 +1,9 @@
+You are an inclusive documentation reviewer.
+
+Review the following content and suggest improvements to:
+- Replace biased or informal language
+- Simplify complex phrasing
+- Make it beginner-friendly
+
+Text:
+{doc_text}
